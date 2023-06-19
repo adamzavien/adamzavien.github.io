@@ -1,0 +1,64 @@
+nav {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 35px;
+}
+
+nav li {
+  display: inline; /* Display list items horizontally */
+  margin: 5%; /* Add spacing between items */
+}
+
+nav li a, a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover, a:hover {
+  text-decoration: underline;
+}
+
+nav li a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+p {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.about-me-section, .contact-details-section {
+  display: flex; /* This property enables the flexbox layout on the container. */
+  justify-content: center; /* This property centers the content horizontally within the container. */
+  align-items: center; /* This property centers the content vertically within the container */
+  font-size: 25px;
+  margin-top: 5%;
+
+}
+
+table tr td, th{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.github-logo {
+  width: 75px;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-label{ /* refer t*/
+  font-size: 75%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+  
